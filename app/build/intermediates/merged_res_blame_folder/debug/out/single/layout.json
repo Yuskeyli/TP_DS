@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-mergeDebugResources-25:\\layout\\fragment_third.xml",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\fragment_third.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-mergeDebugResources-25:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.ifts4.introduccionandroid.app-mergeDebugResources-25:/layout/activity_login.xml",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-mergeDebugResources-25:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-mergeDebugResources-25:\\layout\\nav_header_home.xml",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\nav_header_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-mergeDebugResources-25:\\layout\\my_simple_spinner_item.xml",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\my_simple_spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-mergeDebugResources-25:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-mergeDebugResources-25:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-mergeDebugResources-25:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\activity_home.xml"
+    }
+]
