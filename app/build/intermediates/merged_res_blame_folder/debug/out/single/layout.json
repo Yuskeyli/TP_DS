@@ -28,6 +28,10 @@
         "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\fragment_first.xml"
     },
     {
+        "merged": "com.ifts4.introduccionandroid.app-mergeDebugResources-25:/layout/nav_header_home.xml",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/layout/nav_header_home.xml"
+    },
+    {
         "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-mergeDebugResources-25:\\layout\\fragment_second.xml",
         "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\fragment_second.xml"
     },

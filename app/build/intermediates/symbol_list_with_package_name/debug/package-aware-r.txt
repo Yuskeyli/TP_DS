@@ -2455,14 +2455,16 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable fideo
+drawable dog_background
 drawable ic_clock_black_24dp
+drawable ic_dog_paw
 drawable ic_item_one
 drawable ic_item_three
 drawable ic_item_two
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2512,6 +2514,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable perrito_menu
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2621,6 +2624,7 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardLogin
 id carryVelocity
 id center
 id center_horizontal
@@ -2629,6 +2633,7 @@ id chain
 id chain2
 id chains
 id checkbox
+id checkboxRemember
 id checked
 id chip
 id chip1
@@ -2693,9 +2698,9 @@ id easeInOut
 id easeOut
 id east
 id editTextAge
+id editTextBreed
 id editTextLastName
 id editTextName
-id editTextRemember
 id edit_query
 id elastic
 id end
@@ -2742,6 +2747,7 @@ id image
 id immediateStop
 id included
 id info
+id inputLayoutBreed
 id invisible
 id inward
 id italic
@@ -2822,6 +2828,7 @@ id multiply
 id nav_item_one
 id nav_item_three
 id nav_item_two
+id nav_logout
 id navigationView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -2960,7 +2967,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2988,6 +2994,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvNameUser
+id tvSubtitle
+id tvTitle
 id tvTitleSpinner
 id unchecked
 id uniform
@@ -3193,6 +3201,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
+menu menu_home
 menu menu_navigation_home
 mipmap ic_launcher
 mipmap ic_launcher_round

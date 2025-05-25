@@ -1,97 +1,58 @@
 package com.ifts4.introduccionandroid
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import android.widget.CheckBox
+import android.widget.EditText
 import android.widget.Toast
-import com.google.gson.Gson
-import com.ifts4.introduccionandroid.databinding.ActivityLoginBinding
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.button.MaterialButton
+import com.google.android.material.textfield.TextInputLayout
 
 class LoginActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityLoginBinding
-
-    private val preferences by lazy { getSharedPreferences(RegisterActivity.CREDENTIALS, MODE_PRIVATE) }
-    private val gson = Gson()
+    private lateinit var editTextName: EditText
+    private lateinit var editTextBreed: EditText
+    private lateinit var checkboxRemember: CheckBox
+    private lateinit var btnLogin: MaterialButton
+    private lateinit var btnRegister: MaterialButton
+    private lateinit var breedInputLayout: TextInputLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityLoginBinding.inflate(layoutInflater)
-        //setContentView(R.layout.activity_result)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_login)
 
-        //val preferences = getSharedPreferences(RegisterActivity.CREDENTIALS, MODE_PRIVATE)
+        // Asignar referencias
+        editTextName = findViewById(R.id.editTextName)
+        editTextBreed = findViewById(R.id.editTextBreed)
+        checkboxRemember = findViewById(R.id.checkboxRemember)
+        btnLogin = findViewById(R.id.btnLogin)
+        btnRegister = findViewById(R.id.btnRegister)
+        breedInputLayout = findViewById(R.id.inputLayoutBreed)
 
-        when("RED") {
-            Colors.RED.name -> {
+        // Acción del botón Login
+        btnLogin.setOnClickListener {
+            val name = editTextName.text.toString()
+            val breed = editTextBreed.text.toString()
 
-            }
-            Colors.YELLOW.name -> {
+            if (name.isNotBlank() && breed.isNotBlank()) {
+                // Cambiar el color del hint de "Raza" a blanco
+                breedInputLayout.defaultHintTextColor = getColorStateList(android.R.color.white)
 
+                val intent = Intent(this, HomeActivity::class.java)
+                intent.putExtra("NAME", name)
+                intent.putExtra("BREED", breed)
+                startActivity(intent)
+            } else {
+                Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show()
             }
         }
-        checkAutoLogin()
-        setUpListeners()
-    }
 
-    override fun onResume() {
-        super.onResume()
-        checkAutoLogin()
-    }
-
-    private fun checkAutoLogin() {
-        Log.d("LoginActivity", "autlogin = ${preferences.getBoolean("autoLogin", false)}, isLoggedIn = ${preferences.getBoolean("isLoggedIn", false)}")
-        if (preferences.getBoolean("autoLogin", false) && preferences.getBoolean("isLoggedIn", false)) {
-            val intent = Intent(this, HomeActivity::class.java)
+        // Acción del botón Registro
+        btnRegister.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
     }
-
-    private fun setUpListeners() {
-        binding.btnLogin.setOnClickListener {
-            val name = binding.editTextName.text.toString()
-            val lastName = binding.editTextLastName.text.toString()
-            val checkBox = binding.checkbox.isChecked
-
-            val edit = preferences.edit()
-            if (validateData(name, lastName)) {
-                edit.putBoolean("autoLogin", checkBox)
-                edit.putBoolean("isLoggedIn", true)
-                edit.apply()
-                val intent = Intent(this, HomeActivity::class.java)
-                startActivity(intent)
-
-            } else {
-                //edit.putBoolean("isLoggedIn", false)
-                edit.apply()
-                Toast.makeText(this, "Alguno de los campos es incorrecto", Toast.LENGTH_SHORT).show()
-            }
-        }
-
-        binding.btnRegister.setOnClickListener {
-            goToRegister()
-        }
-    }
-
-    private fun validateData(name: String, lastName: String): Boolean {
-       try {
-           val personInJsonFormat = preferences.getString("person", null)
-           val person = gson.fromJson(personInJsonFormat, Person::class.java)
-
-           if (name == person.name && lastName == person.lastName) {
-               return true
-           } else {
-               return false
-           }
-       } catch (e: java.lang.Exception) {
-           e.printStackTrace()
-           return false
-       }
-    }
-
-    private fun goToRegister() {
-        val intent = Intent(this, RegisterActivity::class.java)
-        startActivity(intent)
-    }
 }
+

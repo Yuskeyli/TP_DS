@@ -8,8 +8,16 @@
         "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\fragment_third.xml"
     },
     {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\ic_logout.xml"
+    },
+    {
         "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/layout_activity_login.xml.flat",
         "source": "com.ifts4.introduccionandroid.app-main-28:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\menu_menu_home.xml.flat",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\menu\\menu_home.xml"
     },
     {
         "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -18,6 +26,10 @@
     {
         "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_dog_background.png.flat",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\dog_background.png"
     },
     {
         "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_item_three.xml.flat",
@@ -68,8 +80,20 @@
         "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_perrito_menu.png.flat",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\perrito_menu.png"
+    },
+    {
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/layout_nav_header_home.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/layout/nav_header_home.xml"
+    },
+    {
         "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_dog_paw.xml.flat",
+        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\ic_dog_paw.xml"
     },
     {
         "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
