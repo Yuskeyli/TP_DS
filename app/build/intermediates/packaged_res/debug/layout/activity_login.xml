@@ -41,7 +41,8 @@
                 android:textStyle="bold"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
-                android:textColor="#4E2E1E" />
+                android:textColor="#4E2E1E"
+                android:fontFamily="@font/barberchop"/>
 
             <TextView
                 android:id="@+id/tvSubtitle"
@@ -51,7 +52,8 @@
                 android:textSize="14sp"
                 android:gravity="center"
                 android:layout_marginTop="4dp"
-                android:textColor="#4E2E1E" />
+                android:textColor="#4E2E1E"
+                android:fontFamily="@font/myfont"/>
 
             <CheckBox
                 android:id="@+id/checkboxRemember"
@@ -59,20 +61,23 @@
                 android:layout_height="wrap_content"
                 android:text="Recordar datos"
                 android:layout_marginTop="16dp"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:fontFamily="@font/barberchop"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nombre"
+                android:hint="¿Como se llama tu mascota?"
                 android:layout_marginTop="8dp">
+
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editTextName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
-                    android:hint="" />
+                    android:hint=""
+                    android:fontFamily="@font/barberchop"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- TextInputLayout con ID para acceder desde Kotlin -->
@@ -80,14 +85,15 @@
                 android:id="@+id/inputLayoutBreed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Raza"
+                android:hint="¿Cual es su raza?"
                 android:layout_marginTop="8dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editTextBreed"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:fontFamily="@font/barberchop"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.button.MaterialButton
@@ -97,7 +103,8 @@
                 android:text="Login"
                 android:layout_marginTop="16dp"
                 android:backgroundTint="#6B3B1A"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/barberchop"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnRegister"
@@ -106,7 +113,8 @@
                 android:text="Registro"
                 android:layout_marginTop="8dp"
                 android:backgroundTint="#A3612A"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/barberchop"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

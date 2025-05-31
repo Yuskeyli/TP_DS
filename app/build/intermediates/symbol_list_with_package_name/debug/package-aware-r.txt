@@ -63,6 +63,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array cities_array
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1211,7 +1212,6 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
-color black
 color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -1752,9 +1752,6 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
-color purple_200
-color purple_500
-color purple_700
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
 color ripple_material_light
@@ -1768,8 +1765,6 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
-color teal_200
-color teal_700
 color test_color
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
@@ -2440,6 +2435,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable animated_background
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -2456,11 +2452,14 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dog_background
+drawable fondoperrito
+drawable frame1
+drawable frame2
+drawable frame3
+drawable ic_bano
 drawable ic_clock_black_24dp
 drawable ic_dog_paw
-drawable ic_item_one
-drawable ic_item_three
-drawable ic_item_two
+drawable ic_guarderia
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2473,6 +2472,10 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_paseo
+drawable ic_servicio1
+drawable ic_servicio2
+drawable ic_servicio3
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2519,6 +2522,8 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font barberchop
+font myfont
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2617,8 +2622,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnExit
 id btnLogin
-id btnNext
 id btnRegister
 id buttonPanel
 id cache_measures
@@ -2697,10 +2702,10 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextAge
 id editTextBreed
 id editTextLastName
 id editTextName
+id editTextPassword
 id edit_query
 id elastic
 id end
@@ -2744,6 +2749,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgServicio1
+id imgServicio2
+id imgServicio3
 id immediateStop
 id included
 id info
@@ -2825,10 +2833,10 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nav_item_one
-id nav_item_three
-id nav_item_two
+id nav_bano
+id nav_guarderia
 id nav_logout
+id nav_paseo
 id navigationView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -2873,6 +2881,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerLayout
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2903,6 +2912,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id serviciosContainer
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2920,7 +2930,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
-id spinnerColors
+id spinnerCities
 id spline
 id split_action_bar
 id spread
@@ -2963,6 +2973,7 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textServiciosTitulo
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2997,6 +3008,9 @@ id tvNameUser
 id tvSubtitle
 id tvTitle
 id tvTitleSpinner
+id txtServicio1
+id txtServicio2
+id txtServicio3
 id unchecked
 id uniform
 id unlabeled
@@ -3172,7 +3186,6 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
-layout my_simple_spinner_item
 layout nav_header_home
 layout notification_action
 layout notification_action_tombstone
@@ -3916,7 +3929,6 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_MyStyles
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

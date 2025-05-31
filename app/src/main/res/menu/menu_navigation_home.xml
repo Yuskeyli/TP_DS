@@ -1,21 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/nav_item_one"
-        android:title="Opcion 1"
-        android:icon="@drawable/ic_item_one"/>
-
+        android:id="@+id/nav_bano"
+        android:title="Baño"
+        android:icon="@drawable/ic_bano" />
     <item
-        android:id="@+id/nav_item_two"
-        android:title="Opcion 2"
-        android:icon="@drawable/ic_item_two"/>
-
+        android:id="@+id/nav_paseo"
+        android:title="Paseo"
+        android:icon="@drawable/ic_paseo" />
     <item
-        android:id="@+id/nav_item_three"
-        android:title="Opcion 3"
-        android:icon="@drawable/ic_item_three"/>
-
-
+        android:id="@+id/nav_guarderia"
+        android:title="Guardería"
+        android:icon="@drawable/ic_guarderia" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Salir"
+        android:icon="@drawable/ic_logout" />
 </menu>

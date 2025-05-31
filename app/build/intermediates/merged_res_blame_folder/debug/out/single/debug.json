@@ -1,150 +1,174 @@
 [
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\layout_nav_header_home.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\nav_header_home.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_bano.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_bano.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\layout_fragment_third.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\fragment_third.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_logout.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_logout.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_logout.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\ic_logout.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
         "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/layout_activity_login.xml.flat",
         "source": "com.ifts4.introduccionandroid.app-main-28:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\menu_menu_home.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\menu\\menu_home.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_dog_paw.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_dog_paw.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_dog_background.png.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\dog_background.png"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/xml_data_extraction_rules.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_item_three.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\ic_item_three.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_guarderia.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_guarderia.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\xml\\data_extraction_rules.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_frame3.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/frame3.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\layout_my_simple_spinner_item.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\my_simple_spinner_item.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/menu_menu_navigation_home.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/menu/menu_navigation_home.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_menu_burguer.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\ic_menu_burguer.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_servicio2.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_servicio2.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/layout_fragment_second.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/layout/fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\fragment_first.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/font_myfont.otf.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/font/myfont.otf"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_frame1.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/frame1.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_item_two.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\ic_item_two.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_fondoperrito.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/fondoperrito.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_perrito_menu.png.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\perrito_menu.png"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/font_barberchop.otf.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/font/barberchop.otf"
     },
     {
         "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/layout_nav_header_home.xml.flat",
         "source": "com.ifts4.introduccionandroid.app-main-28:/layout/nav_header_home.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\activity_login.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/layout_activity_register.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_dog_paw.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\ic_dog_paw.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/layout_fragment_third.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/layout/fragment_third.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_dog_background.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/dog_background.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable_ic_item_one.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable\\ic_item_one.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\xml\\backup_rules.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/layout_activity_home.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\menu_menu_navigation_home.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\menu\\menu_navigation_home.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/xml_backup_rules.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\fragment_second.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_paseo.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_paseo.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable-v24_fideo.jpeg.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable-v24\\fideo.jpeg"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_frame2.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/frame2.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_servicio3.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_servicio3.png"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\activity_register.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_menu_burguer.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_menu_burguer.xml"
     },
     {
-        "merged": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-merged_res-26:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\Bqb\\.gradle\\daemon\\7.4\\com.ifts4.introduccionandroid.app-main-28:\\layout\\activity_home.xml"
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_perrito_menu.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/perrito_menu.png"
+    },
+    {
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/menu_menu_home.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/menu/menu_home.xml"
+    },
+    {
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_animated_background.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/animated_background.xml"
+    },
+    {
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/layout_fragment_first.xml.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "com.ifts4.introduccionandroid.app-merged_res-26:/drawable_ic_servicio1.png.flat",
+        "source": "com.ifts4.introduccionandroid.app-main-28:/drawable/ic_servicio1.png"
     }
 ]

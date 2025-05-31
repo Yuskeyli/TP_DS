@@ -20,10 +20,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.MyStyles" >
+        android:theme="@style/Theme.IntroduccionAndroid" >
         <activity
             android:name="com.ifts4.introduccionandroid.HomeActivity"
-            android:exported="false" >
+            android:exported="false"
+            android:theme="@style/Theme.IntroduccionAndroid" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

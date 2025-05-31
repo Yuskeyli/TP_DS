@@ -4,7 +4,9 @@ package com.ifts4.introduccionandroid.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -28,19 +30,55 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final LinearLayout fragmentContainer;
 
   @NonNull
+  public final ImageView imgServicio1;
+
+  @NonNull
+  public final ImageView imgServicio2;
+
+  @NonNull
+  public final ImageView imgServicio3;
+
+  @NonNull
   public final NavigationView navigationView;
+
+  @NonNull
+  public final LinearLayout serviciosContainer;
+
+  @NonNull
+  public final TextView textServiciosTitulo;
 
   @NonNull
   public final Toolbar toolBar;
 
+  @NonNull
+  public final TextView txtServicio1;
+
+  @NonNull
+  public final TextView txtServicio2;
+
+  @NonNull
+  public final TextView txtServicio3;
+
   private ActivityHomeBinding(@NonNull DrawerLayout rootView, @NonNull DrawerLayout drawerLayout,
-      @NonNull LinearLayout fragmentContainer, @NonNull NavigationView navigationView,
-      @NonNull Toolbar toolBar) {
+      @NonNull LinearLayout fragmentContainer, @NonNull ImageView imgServicio1,
+      @NonNull ImageView imgServicio2, @NonNull ImageView imgServicio3,
+      @NonNull NavigationView navigationView, @NonNull LinearLayout serviciosContainer,
+      @NonNull TextView textServiciosTitulo, @NonNull Toolbar toolBar,
+      @NonNull TextView txtServicio1, @NonNull TextView txtServicio2,
+      @NonNull TextView txtServicio3) {
     this.rootView = rootView;
     this.drawerLayout = drawerLayout;
     this.fragmentContainer = fragmentContainer;
+    this.imgServicio1 = imgServicio1;
+    this.imgServicio2 = imgServicio2;
+    this.imgServicio3 = imgServicio3;
     this.navigationView = navigationView;
+    this.serviciosContainer = serviciosContainer;
+    this.textServiciosTitulo = textServiciosTitulo;
     this.toolBar = toolBar;
+    this.txtServicio1 = txtServicio1;
+    this.txtServicio2 = txtServicio2;
+    this.txtServicio3 = txtServicio3;
   }
 
   @Override
@@ -78,9 +116,39 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imgServicio1;
+      ImageView imgServicio1 = ViewBindings.findChildViewById(rootView, id);
+      if (imgServicio1 == null) {
+        break missingId;
+      }
+
+      id = R.id.imgServicio2;
+      ImageView imgServicio2 = ViewBindings.findChildViewById(rootView, id);
+      if (imgServicio2 == null) {
+        break missingId;
+      }
+
+      id = R.id.imgServicio3;
+      ImageView imgServicio3 = ViewBindings.findChildViewById(rootView, id);
+      if (imgServicio3 == null) {
+        break missingId;
+      }
+
       id = R.id.navigationView;
       NavigationView navigationView = ViewBindings.findChildViewById(rootView, id);
       if (navigationView == null) {
+        break missingId;
+      }
+
+      id = R.id.serviciosContainer;
+      LinearLayout serviciosContainer = ViewBindings.findChildViewById(rootView, id);
+      if (serviciosContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.textServiciosTitulo;
+      TextView textServiciosTitulo = ViewBindings.findChildViewById(rootView, id);
+      if (textServiciosTitulo == null) {
         break missingId;
       }
 
@@ -90,8 +158,27 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.txtServicio1;
+      TextView txtServicio1 = ViewBindings.findChildViewById(rootView, id);
+      if (txtServicio1 == null) {
+        break missingId;
+      }
+
+      id = R.id.txtServicio2;
+      TextView txtServicio2 = ViewBindings.findChildViewById(rootView, id);
+      if (txtServicio2 == null) {
+        break missingId;
+      }
+
+      id = R.id.txtServicio3;
+      TextView txtServicio3 = ViewBindings.findChildViewById(rootView, id);
+      if (txtServicio3 == null) {
+        break missingId;
+      }
+
       return new ActivityHomeBinding((DrawerLayout) rootView, drawerLayout, fragmentContainer,
-          navigationView, toolBar);
+          imgServicio1, imgServicio2, imgServicio3, navigationView, serviciosContainer,
+          textServiciosTitulo, toolBar, txtServicio1, txtServicio2, txtServicio3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

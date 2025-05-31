@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IntroduccionAndroid</string>
+    <string name="app_name">DOG TRAINING</string>
 
     <string name="tvLogin">Login</string>
 
@@ -7,4 +7,14 @@
     <string name="nav_drawer_home_close">Close</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="cities_array">
+    <item>Buenos Aires</item>
+    <item>Córdoba</item>
+    <item>Rosario</item>
+    <item>Mendoza</item>
+    <item>Salta</item>
+    </string-array>
+
 </resources>

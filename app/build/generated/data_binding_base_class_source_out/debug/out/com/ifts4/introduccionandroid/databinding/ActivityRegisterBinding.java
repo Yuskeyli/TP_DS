@@ -6,11 +6,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.ifts4.introduccionandroid.R;
@@ -20,13 +20,13 @@ import java.lang.String;
 
 public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final Button btnNext;
+  public final Button btnExit;
 
   @NonNull
-  public final EditText editTextAge;
+  public final Button btnRegister;
 
   @NonNull
   public final EditText editTextLastName;
@@ -35,27 +35,36 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final EditText editTextName;
 
   @NonNull
-  public final Spinner spinnerColors;
+  public final EditText editTextPassword;
+
+  @NonNull
+  public final RelativeLayout registerLayout;
+
+  @NonNull
+  public final Spinner spinnerCities;
 
   @NonNull
   public final TextView tvTitleSpinner;
 
-  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnNext,
-      @NonNull EditText editTextAge, @NonNull EditText editTextLastName,
-      @NonNull EditText editTextName, @NonNull Spinner spinnerColors,
+  private ActivityRegisterBinding(@NonNull RelativeLayout rootView, @NonNull Button btnExit,
+      @NonNull Button btnRegister, @NonNull EditText editTextLastName,
+      @NonNull EditText editTextName, @NonNull EditText editTextPassword,
+      @NonNull RelativeLayout registerLayout, @NonNull Spinner spinnerCities,
       @NonNull TextView tvTitleSpinner) {
     this.rootView = rootView;
-    this.btnNext = btnNext;
-    this.editTextAge = editTextAge;
+    this.btnExit = btnExit;
+    this.btnRegister = btnRegister;
     this.editTextLastName = editTextLastName;
     this.editTextName = editTextName;
-    this.spinnerColors = spinnerColors;
+    this.editTextPassword = editTextPassword;
+    this.registerLayout = registerLayout;
+    this.spinnerCities = spinnerCities;
     this.tvTitleSpinner = tvTitleSpinner;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -80,15 +89,15 @@ public final class ActivityRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnNext;
-      Button btnNext = ViewBindings.findChildViewById(rootView, id);
-      if (btnNext == null) {
+      id = R.id.btnExit;
+      Button btnExit = ViewBindings.findChildViewById(rootView, id);
+      if (btnExit == null) {
         break missingId;
       }
 
-      id = R.id.editTextAge;
-      EditText editTextAge = ViewBindings.findChildViewById(rootView, id);
-      if (editTextAge == null) {
+      id = R.id.btnRegister;
+      Button btnRegister = ViewBindings.findChildViewById(rootView, id);
+      if (btnRegister == null) {
         break missingId;
       }
 
@@ -104,9 +113,17 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.spinnerColors;
-      Spinner spinnerColors = ViewBindings.findChildViewById(rootView, id);
-      if (spinnerColors == null) {
+      id = R.id.editTextPassword;
+      EditText editTextPassword = ViewBindings.findChildViewById(rootView, id);
+      if (editTextPassword == null) {
+        break missingId;
+      }
+
+      RelativeLayout registerLayout = (RelativeLayout) rootView;
+
+      id = R.id.spinnerCities;
+      Spinner spinnerCities = ViewBindings.findChildViewById(rootView, id);
+      if (spinnerCities == null) {
         break missingId;
       }
 
@@ -116,8 +133,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((ConstraintLayout) rootView, btnNext, editTextAge,
-          editTextLastName, editTextName, spinnerColors, tvTitleSpinner);
+      return new ActivityRegisterBinding((RelativeLayout) rootView, btnExit, btnRegister,
+          editTextLastName, editTextName, editTextPassword, registerLayout, spinnerCities,
+          tvTitleSpinner);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

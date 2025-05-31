@@ -1,5 +1,6 @@
 package com.ifts4.introduccionandroid
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.CheckBox
@@ -22,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        // Asignar referencias
+        // Referencias de la vista
         editTextName = findViewById(R.id.editTextName)
         editTextBreed = findViewById(R.id.editTextBreed)
         checkboxRemember = findViewById(R.id.checkboxRemember)
@@ -30,29 +31,63 @@ class LoginActivity : AppCompatActivity() {
         btnRegister = findViewById(R.id.btnRegister)
         breedInputLayout = findViewById(R.id.inputLayoutBreed)
 
-        // Acción del botón Login
-        btnLogin.setOnClickListener {
-            val name = editTextName.text.toString()
-            val breed = editTextBreed.text.toString()
+        val sharedPref = getSharedPreferences("MisDatos", Context.MODE_PRIVATE)
 
-            if (name.isNotBlank() && breed.isNotBlank()) {
-                // Cambiar el color del hint de "Raza" a blanco
-                breedInputLayout.defaultHintTextColor = getColorStateList(android.R.color.white)
+        // Cargar datos guardados si el usuario tildó 'Recordar datos'
+        val nameGuardado = sharedPref.getString("NOMBRE", "")
+        val razaGuardada = sharedPref.getString("RAZA", "")
+        val recordar = sharedPref.getBoolean("RECORDAR", false)
 
-                val intent = Intent(this, HomeActivity::class.java)
-                intent.putExtra("NAME", name)
-                intent.putExtra("BREED", breed)
-                startActivity(intent)
-            } else {
-                Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show()
-            }
+        if (recordar) {
+            editTextName.setText(nameGuardado)
+            editTextBreed.setText(razaGuardada)
+            checkboxRemember.isChecked = true
         }
 
-        // Acción del botón Registro
+        btnLogin.setOnClickListener {
+            val name = editTextName.text.toString().trim()
+            val breed = editTextBreed.text.toString().trim()
+
+            if (name.isEmpty()) {
+                editTextName.error = "Ingrese su Nombre"
+                editTextName.requestFocus()
+                return@setOnClickListener
+            }
+
+            if (breed.isEmpty()) {
+                editTextBreed.error = "Ingrese la raza"
+                editTextBreed.requestFocus()
+                return@setOnClickListener
+            }
+
+            // Guardar o limpiar según el estado del checkbox
+            if (checkboxRemember.isChecked) {
+                with(sharedPref.edit()) {
+                    putString("NOMBRE", name)
+                    putString("RAZA", breed)
+                    putBoolean("RECORDAR", true)
+                    apply()
+                }
+            } else {
+                with(sharedPref.edit()) {
+                    clear()
+                    apply()
+                }
+            }
+
+            // Cambiar el color del hint de "Raza" a blanco
+            breedInputLayout.defaultHintTextColor = getColorStateList(android.R.color.white)
+
+            // Ir al Home
+            val intent = Intent(this, HomeActivity::class.java)
+            intent.putExtra("NAME", name)
+            intent.putExtra("BREED", breed)
+            startActivity(intent)
+        }
+
         btnRegister.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
     }
 }
-
